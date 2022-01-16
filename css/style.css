@@ -1,0 +1,497 @@
+*{
+	overflow-x: hidden;
+}
+body{
+	background: Silver;
+}
+.topblock{
+	background: DarkSlateGrey;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 50px;
+}
+#logo:hover{
+	top: 5px;
+	left: 10px;
+	width: 130px;
+	height: 40px; 
+	transition: all 0.3s;
+}
+.topblock a img{
+	position: relative;
+	top: 10px;
+	left: 15px;
+	transition: all 0.3s;
+}
+.menucontent{
+	position: absolute;
+	max-width: 80vw;
+	width: 80vw;
+	height: 50px;
+	top: 0px;
+	left: 10vw;
+	overflow-y: hidden;
+}
+#buttonaccountmenu{
+	visibility: hidden;
+	width: 36px;
+	height: 30px;
+	position: relative;
+	top: 10px;
+	right: 10px;
+	float: right;
+}
+.pmenucontent{
+	overflow: hidden;
+	position: absolute;
+	width: 74vw;
+	top: 5px;
+	left: 3vw;
+}
+.pmenucontent a img{
+	width: 40px;
+	height: 40px;
+	display: inline;
+}
+.pmenucontent a h2{
+	display: inline;
+	position: relative;
+	top: -14px;
+}
+.pmenucontent a{
+	text-decoration: none;
+	color: Ivory;
+	margin: 10px;
+}
+#sublogin{
+	position: absolute;
+	width: 7vw;
+	height: 30px;
+	min-width: 5vw;
+	top: 5px;
+	right: 0px;
+	border-radius: 20px;
+	font-size: 104%;
+	color: green;
+	border: none;
+}
+.glblock{
+	background: Gainsboro;
+	width: 80vw;
+	min-height: 90vh;
+	position: absolute;
+	left: 10vw;
+	top: 50px;
+	overflow: visible;
+}
+.contentblock{
+	position: relative;
+	width: 74vw;
+	left: 3vw;
+	background: LightGray;
+	overflow-y: hidden;
+	border-radius: 20px 20px;
+}
+.newsimg a{
+	text-decoration: none;
+	color: black;
+}
+.newsimg a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+.newsimg img{
+	top: 20px;
+	left: 2vw;
+	width: 70vw;
+	position: relative;
+}
+#videotext{
+	position: relative;
+	top: -4px;
+}
+.newsimg h3{
+	position: relative;
+	top: 10px;
+	left: 2vw;
+	font-size: 110%;
+	color: black;
+	width: 70vw;
+}
+.newsimg h4{
+	position: relative;
+	top: 0px;
+	left: 2vw;
+}
+.buttonvideo{
+	top: 20px;
+	left: 2vw;
+	width: 70vw;
+	position: relative;
+}
+.textvideo{
+	position: absolute;
+	left: 2vw;
+	border-radius: 10px;
+	visibility: hiddn;
+}
+#blocklogin{
+	visibility: hidden;
+}
+.auth{
+	position: absolute;
+	top: 20px;
+	left: 30vw;
+	background: #D0CECE;
+	min-width: 20vw;
+	width: 20vw;
+	height: 160px;
+	border-radius: 10px;
+	overflow-y: hidden;
+}
+.blockauth{
+	position: absolute;
+	top: 34px;
+	height: 140px;
+	width: 16vw;
+	left: 2vw;
+}
+#authlogin{
+	position: relative; 
+	left: 0vw; 
+	width: 16vw; 
+	border-radius: 3px; 
+	height: 20px;
+}
+#authpassword{
+	position: relative; 
+	left: 0vw; 
+	width: 16vw; 
+	top: 10px; 
+	border-radius: 3px; 
+	height: 20px;
+}
+#authsubmit{
+	position: relative; 
+	left: 0vw; 
+	top: 40px; 
+	min-width: 60px; 
+	width: 16vw; 
+	border-radius: 10px; 
+	height: 26px;
+}
+.reg{
+	position: absolute;
+	top: 190px;
+	left: 30vw;
+	background: #D0CECE;
+	min-width: 20vw;
+	width: 20vw;
+	height: 200px;
+	border-radius: 10px;
+	overflow-y: hidden;
+}
+.blockreg{
+	top: 30px;
+	left: 2vw;
+	position: absolute;
+	height: 170px;
+}
+#regfirstname{
+	position: relative; 
+	top: 5px; 
+	left: 0vw; 
+	width: 16vw; 
+	border-radius: 3px; 
+	height: 20px;
+}
+#reglastname{
+	position: relative; 
+	top: 10px; 
+	left: 0vw; 
+	width: 16vw; 
+	border-radius: 3px; 
+	height: 20px;
+}
+#regphonenumber{
+	position: relative; 
+	top: 15px; 
+	left: 0vw; 
+	width: 16vw; 
+	border-radius: 3px; 
+	height: 20px;
+}
+#regpassword{
+	position: relative; 
+	top: 20px; 
+	left: 0vw; 
+	width: 16vw; 
+	border-radius: 3px; 
+	height: 20px;
+}
+#regsubmit{
+	position: relative; 
+	left: 0vw; 
+	top: 25px; 
+	min-width: 60px; 
+	width: 16vw; 
+	border-radius: 10px; 
+	height: 26px;
+}
+@media only screen and (max-width: 960px){
+	*{
+	overflow-x: hidden;
+    }
+	.menucontent{
+	position: absolute;
+	width: 74vw;
+	top: 0px;
+	left: 160px;
+	height: 50px;
+    }
+	.pmenucontent{
+	position: absolute;
+	width: 67vw;
+	top: 6px;
+	left: 0vw;
+    }
+	.pmenucontent a img{
+	width: 40px;
+	height: 40px;
+	display: inline;
+    }
+    .pmenucontent a h2{
+	display: inline;
+	position: relative;
+	top: -14px;
+	visibility: hidden;
+    }
+    .pmenucontent a{
+	text-decoration: none;
+	color: Ivory;
+	margin: 0px -50px 0px 0px;
+    }
+	#sublogin{
+	position: absolute;
+	width: 10vw;
+	height: 30px;
+	min-width: 5vw;
+	top: 4px;
+	right: 2vw;
+	border-radius: 20px;
+	font-size: 104%;
+	color: green;
+	border: none;
+    }
+	.auth{
+	position: absolute;
+	top: 20px;
+	left: 25vw;
+	background: #D0CECE;
+	min-width: 20vw;
+	width: 30vw;
+	height: 160px;
+	border-radius: 10px;
+	overflow-y: hidden;
+    }
+	.blockauth{
+	position: absolute;
+	top: 34px;
+	height: 140px;
+	width: 24vw;
+	left: 4vw;
+    }
+	#authlogin{
+		width: 22vw;
+	}
+	#authpassword{
+		width: 22vw;
+	}
+	#authsubmit{
+		left: 0vw;
+		width: 22vw;
+	}
+	.reg{
+	position: absolute;
+	top: 190px;
+	left: 25vw;
+	background: #D0CECE;
+	min-width: 20vw;
+	width: 30vw;
+	height: 200px;
+	border-radius: 10px;
+	overflow-y: hidden;
+    }
+	.blockreg{
+	left: 0vw;
+	top: 30px;
+	position: absolute;
+	height: 170px;
+    }
+	#regfirstname{
+	position: relative; 
+	top: 5px; 
+	left: 4vw; 
+	width: 22vw; 
+	border-radius: 3px; 
+	height: 20px;
+    }
+    #reglastname{
+	position: relative; 
+	top: 10px; 
+	left: 4vw; 
+	width: 22vw; 
+	border-radius: 3px; 
+	height: 20px;
+    }
+    #regphonenumber{
+	position: relative; 
+	top: 15px; 
+	left: 4vw; 
+	width: 22vw; 
+	border-radius: 3px; 
+	height: 20px;
+    }
+    #regpassword{
+	position: relative; 
+	top: 20px; 
+	left: 4vw; 
+	width: 22vw; 
+	border-radius: 3px; 
+	height: 20px;
+    }
+    #regsubmit{
+	position: relative; 
+	top: 25px; 
+	left: 4vw; 
+	width: 22vw; 
+	border-radius: 3px; 
+	height: 26px;
+    }
+}
+@media only screen and (max-width: 700px){
+	*{
+	overflow-x: hidden;
+    }
+	#logo{
+		top: 7px;
+		left: 0px;
+		width: 100px;
+		height: 30px;
+	}
+	#logo:hover{
+	    top: 7px;
+	    left: 0px;
+	    width: 110px;
+	    height: 34px; 
+	    transition: all 0.3s;
+    }
+	.menucontent{
+	   width: 62vw;
+	   position: absolute;
+	   top: -3px;
+	   left: 110px;
+	   height: 60px;
+    }
+	.pmenucontent{
+		width: 62vw;
+	}
+	#sublogin{
+	position: absolute;
+	width: 18vw;
+	height: 30px;
+	min-width: 5vw;
+	top: 6px;
+	right: 10vw;
+	border-radius: 20px;
+	font-size: 104%;
+	color: green;
+	border: none;
+    }
+	.auth{
+	position: absolute;
+	top: 20px;
+	left: 10vw;
+	background: #D0CECE;
+	min-width: 20vw;
+	width: 60vw;
+	height: 160px;
+	border-radius: 10px;
+	overflow-y: hidden;
+    }
+	.blockauth{
+	position: absolute;
+	top: 34px;
+	height: 140px;
+	width: 60vw;
+	left: 4vw;
+    }
+	#authlogin{
+		width: 52vw;
+	}
+	#authpassword{
+		width: 52vw;
+	}
+	#authsubmit{
+		left: 1vw;
+		width: 52vw;
+	}
+	.reg{
+	position: absolute;
+	top: 190px;
+	left: 10vw;
+	background: #D0CECE;
+	min-width: 20vw;
+	width: 60vw;
+	height: 200px;
+	border-radius: 10px;
+	overflow-y: hidden;
+    }
+	.blockreg{
+	top: 30px;
+	position: absolute;
+	height: 170px;
+    }
+	#regfirstname{
+	position: relative; 
+	top: 5px; 
+	left: 4vw; 
+	width: 52vw; 
+	border-radius: 3px; 
+	height: 20px;
+    }
+    #reglastname{
+	position: relative; 
+	top: 10px; 
+	left: 4vw; 
+	width: 52vw; 
+	border-radius: 3px; 
+	height: 20px;
+    }
+    #regphonenumber{
+	position: relative; 
+	top: 15px; 
+	left: 4vw; 
+	width: 52vw; 
+	border-radius: 3px; 
+	height: 20px;
+    }
+    #regpassword{
+	position: relative; 
+	top: 20px; 
+	left: 4vw; 
+	width: 52vw; 
+	border-radius: 3px; 
+	height: 20px;
+    }
+    #regsubmit{
+	position: relative; 
+	top: 25px; 
+	left: 4vw; 
+	width: 52vw; 
+	border-radius: 3px; 
+	height: 26px;
+    }
+}

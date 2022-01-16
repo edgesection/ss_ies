@@ -1,0 +1,46 @@
+.videocontent h4{
+	position: relative;
+	top: -25px;
+	max-width: 200px;
+	font-size: 100%;
+}
+.videocontent a{
+	position: relative;
+	text-decoration: none;
+	color: black;
+	transition: all 0.3s;
+	max-width: 246px;
+	width: 246px;
+	display: inline;
+}
+.videocontent a:hover{
+	text-decoration: underline;
+	color: Red;
+	transition: all 0.3s;
+}
+.videopreview{
+	position: relative;
+	max-width: 200px;
+	width: 100vw;
+	height: 100vh;
+	max-height: 120px;
+	position: relative;
+	border-radius: 10px 30px;
+}
+.videocontent{
+	position: relative;
+	display: inline-table;
+	margin: 0px 0.5vw -30px 0px;
+}
+.content{
+	position: relative;
+	top: 10px;
+	width: 72vw;
+	left: 4vw;
+	overflow: hidden;
+}
+.textvideo{
+	position: absolute;
+	top: 0px;
+	visibility: hidden;
+}
